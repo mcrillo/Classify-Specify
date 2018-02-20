@@ -31,7 +31,7 @@ install pandas, numexpr, Pillow, Tkinter
 Run the specify.py file (python specify.py in the command line)
 Select "Checking Mode" and then click the "Start" button. 
 
-A box will pop for you to select a directory; choose the one that you've put all the images in. It'll then open up the images in sequence. There's a small window that contains the image number and the total number of images, followed by the image file name (which contains the species identity from the original Buckley metadata). 
+A box will pop for you to select a directory; choose the one that you've put all the images in. It'll then open up the images in sequence.  
 
 You can then choose either 
 1. Correct as marked (if the species in the file name is correct), 
