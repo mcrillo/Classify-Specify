@@ -1,0 +1,43 @@
+Python help:
+
+First of all, install virtualenv inside your project folder to secure your project directory to avoid conflict with your other packages.
+
+pip install virtualenv
+
+After installing this run this command one by one inside your root project directory:
+
+virtualenv venv
+source venv/bin/activate
+
+Now Your directory is secure and you can install your required packages inside.
+
+pip install pandas
+pip install numexpr
+pip install Pillow
+
+
+and others as you required.
+
+pip list
+
+Because you have installed virtualenv and running as secure it will not conflict with other outside packages.
+
+
+Allison's e-mail:
+
+Specify is also now ready for use; the latest version is available on GitHub (https://github.com/HullLab/Classify-Specify). I don't know how familiar you guys are with Python, but there are a few modules you'll need to download to use it:
+install pandas, numexpr, Pillow, Tkinter 
+
+Run the specify.py file (python specify.py in the command line)
+Select "Checking Mode" and then click the "Start" button. 
+
+A box will pop for you to select a directory; choose the one that you've put all the images in. It'll then open up the images in sequence. There's a small window that contains the image number and the total number of images, followed by the image file name (which contains the species identity from the original Buckley metadata). 
+
+You can then choose either 
+1. Correct as marked (if the species in the file name is correct), 
+2. Needs change (if the species in the file name is incorrect),
+3. Remove from dataset (if the image is junk). 
+
+You can either click those buttons or just hit the "1", "2", or "3" keys on the keyboard. When you make a selection the program will automatically progress to the next image.
+
+If you want to save what you've done so far, you can click the "Checkpoint" button. If you quit the program you'll be able to start again from wherever you last checkpointed. If you make a mistake you can hit the "Undo" button to go back as far as you like.
