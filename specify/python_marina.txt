@@ -28,7 +28,10 @@ Allison's e-mail:
 Specify is also now ready for use; the latest version is available on GitHub (https://github.com/HullLab/Classify-Specify). I don't know how familiar you guys are with Python, but there are a few modules you'll need to download to use it:
 install pandas, numexpr, Pillow, Tkinter 
 
-Run the specify.py file (python specify.py in the command line)
+Toun the specify.py file in the command line: 
+
+python specify.py 
+
 Select "Checking Mode" and then click the "Start" button. 
 
 A box will pop for you to select a directory; choose the one that you've put all the images in. It'll then open up the images in sequence.  
