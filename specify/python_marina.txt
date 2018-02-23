@@ -1,4 +1,4 @@
-Python help:
+DocumtPython help:
 
 First of all, install virtualenv inside your project folder to secure your project directory to avoid conflict with your other packages.
 
@@ -28,7 +28,7 @@ Allison's e-mail:
 Specify is also now ready for use; the latest version is available on GitHub (https://github.com/HullLab/Classify-Specify). I don't know how familiar you guys are with Python, but there are a few modules you'll need to download to use it:
 install pandas, numexpr, Pillow, Tkinter 
 
-Toun the specify.py file in the command line: 
+To run the specify.py file in the command line: 
 
 python specify.py 
 
