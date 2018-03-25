@@ -1,3 +1,14 @@
+Run: 
+cd Documents/Classify-Specify/specify
+virtualenv venv
+source venv/bin/activate
+python specify.py 
+
+Select "Checking Mode" and then click the "Start" button. 
+
+
+
+
 DocumtPython help:
 
 First of all, install virtualenv inside your project folder to secure your project directory to avoid conflict with your other packages.
