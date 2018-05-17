@@ -7,7 +7,7 @@ library(tidyr)
 setwd("/Users/marinacostarillo/Documents/Classify-Specify/specify")
 # list.files()
 
-test <- read.xlsx("Buckley_DC_tabR_image_names.xlsx",sheetIndex=1, header = T)
+test <- read.xlsx("Buckley_Specimens_for_R_tab.xlsx",sheetIndex=1, header = T)
 image_name_vector <- as.character(test$Image.name)
 
 image_name_df <- as.data.frame(image_name_vector) %>% separate(image_name_vector, into = paste("V", 1:12, sep = "_"))
